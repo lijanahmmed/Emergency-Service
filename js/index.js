@@ -36,8 +36,8 @@ for (const callButton of callButtons) {
         const availableCoin = parseInt(document.getElementById("coin-count").innerText);
         const now = new Date();
         const localTime = now.toLocaleTimeString();
-        if(availableCoin < 20){
-            alert("Insufficient Coin");
+        if (availableCoin < 20) {
+            alert("❌ You don't have enough coins. You need at least 20 coins to make a call");
             return;
         }
         alert("📞 Calling" + " " + serviceName + " " + serviceNumber + "...");
@@ -47,7 +47,7 @@ for (const callButton of callButtons) {
         const historyContainer = document.getElementById("history-container");
         const newContainer = document.createElement("div");
         newContainer.innerHTML = `
-        <div class="flex md:flex-col lg:flex-row justify-between items-center md:items-start lg:items-center p-2 bg-gray-100 rounded-xl">
+        <div class="flex md:flex-col lg:flex-row justify-between items-center md:items-start lg:items-center p-2 bg-gray-100 rounded-lg">
                     <div>
                         <p class="font-bold">${serviceTitle}</p>
                         <p class="text-gray-600">${serviceNumber}</p>
@@ -59,3 +59,5 @@ for (const callButton of callButtons) {
         historyContainer.prepend(newContainer);
     })
 };
+
+
