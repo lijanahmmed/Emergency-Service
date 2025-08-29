@@ -61,3 +61,10 @@ for (const callButton of callButtons) {
 };
 
 
+// Clear Button Functionalities
+
+const clearButton = document.getElementById("clear-btn");
+clearButton.addEventListener("click", function () {
+    const historyContainer = document.getElementById("history-container");
+    historyContainer.innerHTML = "";
+});
