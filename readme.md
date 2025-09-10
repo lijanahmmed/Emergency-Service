@@ -1,6 +1,29 @@
-# Emergency Service
+# Emergency Service  
 
-Emergency Service is a simple and responsive webpage which is built with HTML, Tailwind CSS and JavaScript DOM.
+**Emergency Service** is a responsive web project designed to provide quick access to essential emergency contacts.  
+With a simple and user-friendly interface, users can instantly connect to various national helplines when needed.  
+
+---
+
+## Built With  
+- **HTML** – Page structure  
+- **Tailwind CSS** – Modern responsive styling  
+- **DaisyUI** – Pre-designed UI components  
+- **JavaScript (DOM)** – Dynamic functionality and interactivity  
+
+---
+
+## Features  
+- Call to **National Emergency Number**  
+- Quick dial to **Police Helpline**  
+- Connect with **Fire Service**  
+- Access to **Ambulance Service**  
+- **Women & Child Helpline** for safety support  
+- **Anti-Corruption Helpline** contact  
+- **Electricity Helpline** for power issues  
+- **BRAC Helpline** for community support  
+
+---
 
 ## Question & Answer
 
