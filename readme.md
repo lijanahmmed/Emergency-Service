@@ -27,6 +27,8 @@ With a simple and user-friendly interface, users can instantly connect to variou
 
 ## Question & Answer
 
+---
+
 #### Q1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
 Answer : Here, getElementById finds a single element by its unique id name. But getElementsByClassName finds the list of all elements with the same class name. 
